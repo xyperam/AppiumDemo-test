@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T22:13:44 WIB" name="Default suite" finished-at="2024-05-15T22:14:31 WIB" duration-ms="46556">
+  <suite started-at="2024-05-16T21:27:02 WIB" name="Default suite" finished-at="2024-05-16T21:27:23 WIB" duration-ms="21202">
     <groups>
     </groups>
-    <test started-at="2024-05-15T22:13:44 WIB" name="Default test" finished-at="2024-05-15T22:14:31 WIB" duration-ms="46556">
+    <test started-at="2024-05-16T21:27:02 WIB" name="Default test" finished-at="2024-05-16T21:27:23 WIB" duration-ms="21202">
       <class name="com.codenbox.Appium.Base">
-        <test-method signature="configureAppium()[pri:0, instance:com.codenbox.Appium.Base@576d5deb]" started-at="2024-05-15T22:13:45 WIB" name="configureAppium" finished-at="2024-05-15T22:14:31 WIB" duration-ms="46431" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.Base@76a4ebf2]" started-at="2024-05-16T21:27:02 WIB" name="configureAppium" finished-at="2024-05-16T21:27:11 WIB" duration-ms="8780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
+        <test-method signature="startDriver()[pri:0, instance:com.codenbox.Appium.Base@76a4ebf2]" started-at="2024-05-16T21:27:11 WIB" name="startDriver" finished-at="2024-05-16T21:27:23 WIB" duration-ms="12320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.Base@76a4ebf2]" started-at="2024-05-16T21:27:23 WIB" name="tearDown" finished-at="2024-05-16T21:27:23 WIB" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.codenbox.Appium.Base -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
