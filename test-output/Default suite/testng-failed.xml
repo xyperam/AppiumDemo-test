@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.codenbox.Appium.Base">
+      <class name="com.codenbox.Appium.SetWifi">
         <methods>
+          <include name="setwifiTest"/>
+          <include name="tearDown"/>
           <include name="configureAppium"/>
         </methods>
-      </class> <!-- com.codenbox.Appium.Base -->
+      </class> <!-- com.codenbox.Appium.SetWifi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
