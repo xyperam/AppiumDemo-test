@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-18T01:36:19 WIB" name="Default suite" finished-at="2024-05-18T01:36:34 WIB" duration-ms="15350">
+  <suite started-at="2024-05-23T22:47:44 WIB" name="Default suite" finished-at="2024-05-23T22:48:06 WIB" duration-ms="22234">
     <groups>
     </groups>
-    <test started-at="2024-05-18T01:36:19 WIB" name="Default test" finished-at="2024-05-18T01:36:34 WIB" duration-ms="15350">
-      <class name="com.codenbox.Appium.ViewText">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.ViewText@2e8c1c9b]" started-at="2024-05-18T01:36:19 WIB" name="configureAppium" finished-at="2024-05-18T01:36:28 WIB" duration-ms="9645" status="PASS">
+    <test started-at="2024-05-23T22:47:44 WIB" name="Default test" finished-at="2024-05-23T22:48:06 WIB" duration-ms="22234">
+      <class name="com.codenbox.Appium.LongPress">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.LongPress@449a4f23]" started-at="2024-05-23T22:47:44 WIB" name="configureAppium" finished-at="2024-05-23T22:47:59 WIB" duration-ms="15089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="ViewTextTest()[pri:0, instance:com.codenbox.Appium.ViewText@2e8c1c9b]" started-at="2024-05-18T01:36:28 WIB" name="ViewTextTest" finished-at="2024-05-18T01:36:33 WIB" duration-ms="4747" status="PASS">
+        <test-method signature="longPressTest()[pri:0, instance:com.codenbox.Appium.LongPress@449a4f23]" started-at="2024-05-23T22:47:59 WIB" name="longPressTest" finished-at="2024-05-23T22:48:06 WIB" duration-ms="6479" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ViewTextTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.ViewText@2e8c1c9b]" started-at="2024-05-18T01:36:33 WIB" name="tearDown" finished-at="2024-05-18T01:36:34 WIB" duration-ms="888" status="PASS">
+        </test-method> <!-- longPressTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.LongPress@449a4f23]" started-at="2024-05-23T22:48:06 WIB" name="tearDown" finished-at="2024-05-23T22:48:06 WIB" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.codenbox.Appium.ViewText -->
+      </class> <!-- com.codenbox.Appium.LongPress -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
