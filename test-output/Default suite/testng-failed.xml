@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.codenbox.Appium.LongPress">
+      <class name="com.codenbox.Appium.ScrollTest">
         <methods>
-          <include name="longPressTest"/>
           <include name="tearDown"/>
+          <include name="scrollTest"/>
           <include name="configureAppium"/>
         </methods>
-      </class> <!-- com.codenbox.Appium.LongPress -->
+      </class> <!-- com.codenbox.Appium.ScrollTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
