@@ -9,7 +9,7 @@ public class ScrollTest extends Base {
 	@Test
 	public void scrollTest() {
 		driver.findElement(AppiumBy.accessibilityId("Views")).click();
-		scrollToElement("WebView");
+		scrollToText("WebView");
 		//scrollToEnd();
 	}
 }

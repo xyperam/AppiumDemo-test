@@ -65,10 +65,11 @@ public class Base {
    		
        }
 	 
-	 public void scrollToElement(String ele) {
-		 driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text(\"ele\"));"));
-			 
-	 }
+	 public void scrollToText(String text) {
+	        driver.findElement(AppiumBy.androidUIAutomator(
+	            "new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text(\"" + text + "\"));"
+	        ));
+	    }
 
  
       
