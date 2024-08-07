@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.codenbox.Appium.ScrollTest">
+      <class name="com.codenbox.Appium.Swipe">
         <methods>
           <include name="tearDown"/>
-          <include name="scrollTest"/>
           <include name="configureAppium"/>
+          <include name="SwipeTest"/>
         </methods>
-      </class> <!-- com.codenbox.Appium.ScrollTest -->
+      </class> <!-- com.codenbox.Appium.Swipe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

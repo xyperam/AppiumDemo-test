@@ -70,6 +70,15 @@ public class Base {
 	            "new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text(\"" + text + "\"));"
 	        ));
 	    }
+	 
+	 public void swipeAction(WebElement ele,String swipeDirection,double percent){
+		
+			((JavascriptExecutor) driver).executeScript("mobile: swipeGesture", ImmutableMap.of(
+				    "elementId", ((RemoteWebElement) ele ).getId(),
+					"direction",swipeDirection,
+					"percent", percent
+					));
+	 }
 
  
       
