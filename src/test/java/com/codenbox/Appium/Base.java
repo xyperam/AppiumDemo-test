@@ -45,7 +45,8 @@ public class Base {
         
         UiAutomator2Options options = new UiAutomator2Options();
         options.setDeviceName("Automation");
-        options.setApp("D:\\code\\appium\\Appium\\src\\resources\\ApiDemos-Debug.Apk");
+//        options.setApp("D:\\code\\appium\\Appium\\src\\resources\\ApiDemos-Debug.Apk");
+        options.setApp("D:\\code\\appium\\Appium\\src\\resources\\General-Store.Apk");
         
         // Create object for Android driver
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);

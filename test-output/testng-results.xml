@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-07T23:23:46 WIB" name="Default suite" finished-at="2024-08-07T23:23:58 WIB" duration-ms="12023">
+  <suite started-at="2024-08-13T21:41:46 WIB" name="Default suite" finished-at="2024-08-13T21:42:11 WIB" duration-ms="25160">
     <groups>
     </groups>
-    <test started-at="2024-08-07T23:23:46 WIB" name="Default test" finished-at="2024-08-07T23:23:58 WIB" duration-ms="12023">
-      <class name="com.codenbox.Appium.Swipe">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.Swipe@470734c3]" started-at="2024-08-07T23:23:46 WIB" name="configureAppium" finished-at="2024-08-07T23:23:52 WIB" duration-ms="6329" status="PASS">
+    <test started-at="2024-08-13T21:41:46 WIB" name="Default test" finished-at="2024-08-13T21:42:11 WIB" duration-ms="25160">
+      <class name="com.codenbox.Appium.GeneralStoreTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:41:46 WIB" name="configureAppium" finished-at="2024-08-13T21:41:54 WIB" duration-ms="7951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="SwipeTest()[pri:0, instance:com.codenbox.Appium.Swipe@470734c3]" started-at="2024-08-07T23:23:52 WIB" name="SwipeTest" finished-at="2024-08-07T23:23:57 WIB" duration-ms="5112" status="PASS">
+        <test-method signature="DropdownTest()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:41:54 WIB" name="DropdownTest" finished-at="2024-08-13T21:42:10 WIB" duration-ms="16386" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SwipeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.Swipe@470734c3]" started-at="2024-08-07T23:23:57 WIB" name="tearDown" finished-at="2024-08-07T23:23:58 WIB" duration-ms="547" status="PASS">
+        </test-method> <!-- DropdownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:42:10 WIB" name="tearDown" finished-at="2024-08-13T21:42:11 WIB" duration-ms="778" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.codenbox.Appium.Swipe -->
+      </class> <!-- com.codenbox.Appium.GeneralStoreTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
