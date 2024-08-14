@@ -50,6 +50,11 @@ public class Base {
         
         // Create object for Android driver
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+        if (driver == null) {
+            System.out.println("Driver initialization failed.");
+        } else {
+            System.out.println("Driver initialized successfully: " + driver);
+        }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 	 public void scrollToEnd() {
@@ -82,9 +87,6 @@ public class Base {
 	 }
 
  
-      
-
-     
      
      @AfterClass
      public void tearDown() {

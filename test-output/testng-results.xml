@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-13T21:41:46 WIB" name="Default suite" finished-at="2024-08-13T21:42:11 WIB" duration-ms="25160">
+  <suite started-at="2024-08-14T22:43:35 WIB" name="Default suite" finished-at="2024-08-14T22:43:56 WIB" duration-ms="20387">
     <groups>
     </groups>
-    <test started-at="2024-08-13T21:41:46 WIB" name="Default test" finished-at="2024-08-13T21:42:11 WIB" duration-ms="25160">
+    <test started-at="2024-08-14T22:43:35 WIB" name="Default test" finished-at="2024-08-14T22:43:56 WIB" duration-ms="20387">
       <class name="com.codenbox.Appium.GeneralStoreTest">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:41:46 WIB" name="configureAppium" finished-at="2024-08-13T21:41:54 WIB" duration-ms="7951" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@235ecd9f]" started-at="2024-08-14T22:43:36 WIB" name="configureAppium" finished-at="2024-08-14T22:43:49 WIB" duration-ms="13712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="DropdownTest()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:41:54 WIB" name="DropdownTest" finished-at="2024-08-13T21:42:10 WIB" duration-ms="16386" status="PASS">
+        <test-method signature="ToastMsgTest()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@235ecd9f]" started-at="2024-08-14T22:43:49 WIB" name="ToastMsgTest" finished-at="2024-08-14T22:43:55 WIB" duration-ms="5445" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DropdownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@202b0582]" started-at="2024-08-13T21:42:10 WIB" name="tearDown" finished-at="2024-08-13T21:42:11 WIB" duration-ms="778" status="PASS">
+        </test-method> <!-- ToastMsgTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.codenbox.Appium.GeneralStoreTest@235ecd9f]" started-at="2024-08-14T22:43:55 WIB" name="tearDown" finished-at="2024-08-14T22:43:56 WIB" duration-ms="1155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

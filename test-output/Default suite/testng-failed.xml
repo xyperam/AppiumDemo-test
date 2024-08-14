@@ -5,7 +5,7 @@
     <classes>
       <class name="com.codenbox.Appium.GeneralStoreTest">
         <methods>
-          <include name="DropdownTest"/>
+          <include name="ToastMsgTest"/>
           <include name="tearDown"/>
           <include name="configureAppium"/>
         </methods>
