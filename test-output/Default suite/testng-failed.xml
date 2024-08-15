@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.codenbox.Appium.GeneralStoreTest">
+      <class name="com.codenbox.Appium.HybridTest">
         <methods>
-          <include name="ToastMsgTest"/>
+          <include name="doHybrid"/>
           <include name="tearDown"/>
           <include name="configureAppium"/>
         </methods>
-      </class> <!-- com.codenbox.Appium.GeneralStoreTest -->
+      </class> <!-- com.codenbox.Appium.HybridTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
